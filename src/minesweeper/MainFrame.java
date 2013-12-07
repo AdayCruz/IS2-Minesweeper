@@ -53,7 +53,7 @@ public class MainFrame extends JFrame{
     
     private void showw(ActionEvent e){
         JButton button = (JButton)e.getSource();
-        button.setEnabled(false);
+        button.setLabel(button.getLabel()+" Pressed");
     }
 
 }
